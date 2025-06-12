@@ -1,0 +1,110 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #23272e, #2c3440);
+    -fx-background-radius: 16;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-text-fill: #e0e0e0;
+}
+
+.menu-bar, .menu, .menu-item {
+    -fx-background-color: #23272e;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-radius: 16 16 0 0;
+}
+
+.menu-bar .label, .menu .label, .menu-item .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.label {
+    -fx-font-size: 15px;
+    -fx-text-fill: #e0e0e0;
+}
+
+.text-field, .password-field, .text-area {
+    -fx-background-radius: 8;
+    -fx-font-size: 15px;
+    -fx-background-color: #23272e;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #444;
+    -fx-border-radius: 8;
+    -fx-highlight-fill: #444;
+    -fx-highlight-text-fill: #fff;
+    -fx-prompt-text-fill: #888;
+}
+
+.text-area {
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+}
+
+.button {
+    -fx-background-radius: 8;
+    -fx-font-size: 15px;
+    -fx-padding: 8 18 8 18;
+    -fx-background-color: #00529b;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+
+.button:focused {
+    -fx-effect: dropshadow(gaussian, #00529b, 8, 0.2, 0, 2);
+}
+
+#downloadButton {
+    -fx-background-color: #d40511;
+}
+
+.titled-pane, .titled-pane > .title {
+    -fx-background-color: #23272e;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-radius: 8;
+}
+
+.titled-pane > .content {
+    -fx-background-color: #23272e;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-radius: 8;
+}
+
+.check-box, .check-box .label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.progress-bar {
+    -fx-accent: #00529b;
+    -fx-control-inner-background: #23272e;
+    -fx-background-radius: 8;
+}
+
+.dialog-pane {
+    -fx-background-color: #23272e;
+    -fx-border-radius: 16;
+}
+
+.dialog-pane .label, .dialog-pane .content.label {
+    -fx-text-fill: #e0e0e0;
+}
+
+.dialog-pane .text-field, .dialog-pane .password-field {
+    -fx-background-color: #23272e;
+    -fx-text-fill: #e0e0e0;
+    -fx-border-color: #444;
+    -fx-border-radius: 8;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #00529b;
+    -fx-text-fill: #fff;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #23272e;
+}
+
+.dialog-pane .content {
+    -fx-background-color: #23272e;
+}
+
+.dialog-pane .graphic-container {
+    -fx-background-color: #23272e;
+}

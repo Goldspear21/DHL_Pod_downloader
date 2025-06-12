@@ -1,0 +1,32 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #f7f7f7, #e0e7ef);
+    -fx-background-radius: 12;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.button {
+    -fx-background-radius: 8;
+    -fx-font-size: 15px;
+    -fx-padding: 8 18 8 18;
+    -fx-cursor: hand;
+}
+
+.button:focused {
+    -fx-effect: dropshadow(gaussian, #00529b, 8, 0.2, 0, 2);
+}
+
+.text-field {
+    -fx-background-radius: 8;
+    -fx-font-size: 15px;
+    -fx-padding: 8 10 8 10;
+}
+
+.text-area {
+    -fx-background-radius: 8;
+    -fx-font-size: 14px;
+    -fx-padding: 10;
+}
+
+.label {
+    -fx-font-size: 15px;
+}
