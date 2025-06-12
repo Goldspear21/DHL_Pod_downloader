@@ -58,3 +58,10 @@ This application does not collect, store, or transmit any personal data except a
 ---
 
 Enjoy using DHL POD Downloader!
+
+---
+
+### Side notes (read to know why I made this)
+I made this because every week, my dad hands me a stack of DHL shipment papers and asks me to download the proof of delivery. He runs a business that also handles logistics, so this is a regular occurrence. Since I’m lazy, I built this app to make my life easier. It’s made for a super niche purpose, but hey—if you were curious, now you know.
+
+---
